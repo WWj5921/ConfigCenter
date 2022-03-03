@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T16:42:17.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="94td4RDrtgt_MTiiZlkE" version="16.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-03T01:15:50.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="IalcKA-43BJeG_RafKmb" version="16.6.4" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1307,7 +1307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AsOJdbxec5yy09aVXmJk" name="scan and push">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="1kSqIxNjo13GbEiKxOyM-0" />
         <mxCell id="1kSqIxNjo13GbEiKxOyM-1" parent="1kSqIxNjo13GbEiKxOyM-0" />
@@ -1474,6 +1474,15 @@
         </mxCell>
         <mxCell id="Xt619zhfrCA_Sy6v42uF-9" value="+ delete()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="Xt619zhfrCA_Sy6v42uF-0" vertex="1">
           <mxGeometry y="216" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YRckT4dvVI7X8ppX9gL0-0" value="客户端与服务端连接时，服务端根据IP+appId的组合来唯一标识一个连接，&lt;br&gt;当有新的发布触发时，则先通过检查本次发布是否是灰度规则命中，如命中，则将&lt;br&gt;release消息发布到对应的机器上。&lt;br&gt;客户端定时扫描时，也会带上ip+client，然后由服务端来决定返回什么配置信息。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="QEUNWFFc016uUUWMpJ-c-1">
+          <mxGeometry x="1160" y="1565" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y2Q-jhQWT_T2pYUh6klZ-0" value="每次发布完或者更新规则后，也都会触发一次 releaseMsg消息的发送，需要重新推消息到变更的客户端上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="QEUNWFFc016uUUWMpJ-c-1">
+          <mxGeometry x="850" y="1690" width="620" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y2Q-jhQWT_T2pYUh6klZ-1" value="&lt;code style=&quot;margin: 0px 2px ; padding: 0px 5px ; border: 1px solid rgb(214 , 214 , 214) ; outline: 0px ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15.12px ; vertical-align: baseline ; background: rgb(238 , 238 , 238) ; color: rgb(116 , 112 , 112) ; text-shadow: rgb(255 , 255 , 255) 0px 1px ; text-align: left&quot;&gt;clientAppId&lt;/code&gt;&lt;span style=&quot;color: rgb(129 , 124 , 124) ; font-size: 16.8px ; text-align: left ; background-color: rgb(250 , 250 , 250)&quot;&gt;&amp;nbsp;+&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;margin: 0px 2px ; padding: 0px 5px ; border: 1px solid rgb(214 , 214 , 214) ; outline: 0px ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15.12px ; vertical-align: baseline ; background: rgb(238 , 238 , 238) ; color: rgb(116 , 112 , 112) ; text-shadow: rgb(255 , 255 , 255) 0px 1px ; text-align: left&quot;&gt;clientIp&lt;/code&gt;&lt;span style=&quot;color: rgb(129 , 124 , 124) ; font-size: 16.8px ; text-align: left ; background-color: rgb(250 , 250 , 250)&quot;&gt;&amp;nbsp;+&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;margin: 0px 2px ; padding: 0px 5px ; border: 1px solid rgb(214 , 214 , 214) ; outline: 0px ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15.12px ; vertical-align: baseline ; background: rgb(238 , 238 , 238) ; color: rgb(116 , 112 , 112) ; text-shadow: rgb(255 , 255 , 255) 0px 1px ; text-align: left&quot;&gt;namespaceName&lt;/code&gt;&lt;span style=&quot;color: rgb(129 , 124 , 124) ; font-size: 16.8px ; text-align: left ; background-color: rgb(250 , 250 , 250)&quot;&gt;&amp;nbsp;，校验是否有灰度规则。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="QEUNWFFc016uUUWMpJ-c-1">
+          <mxGeometry x="1110" y="1750" width="580" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
