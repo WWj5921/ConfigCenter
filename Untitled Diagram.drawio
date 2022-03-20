@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T15:26:59.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="HGZ3alkgE8XKslZmEYYx" version="16.6.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-20T16:16:57.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="9fkaWgKfb5wg_IQ9vMlb" version="16.6.5" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4697,12 +4697,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AX3uKpN8klHrNscnlbEg" name="network">
-    <mxGraphModel dx="2593" dy="1564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="1075" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-0" />
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-1" parent="o41WFJ2fdRSEY_HbtwUV-0" />
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;fontFamily=Lucida Console;fontColor=#001C38;strokeWidth=2;fillColor=default;gradientColor=none;gradientDirection=north;dashed=1;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
-          <mxGeometry x="155" y="248" width="293" height="293" as="geometry" />
+          <mxGeometry x="155" y="248" width="304" height="304" as="geometry" />
         </mxCell>
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-2" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#001C38;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
           <mxGeometry x="608" y="314" width="100" height="100" as="geometry" />
@@ -4744,17 +4744,8 @@
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-7" value="负载均衡服务器" style="fontColor=#001C38;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.load_balancer;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
           <mxGeometry x="784" y="308" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o41WFJ2fdRSEY_HbtwUV-11" value="开发人员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
-          <mxGeometry x="196" y="257" width="40" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="o41WFJ2fdRSEY_HbtwUV-12" value="运维人员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
-          <mxGeometry x="196" y="398" width="40" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-13" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
-          <mxGeometry x="296" y="279.5" width="100" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="o41WFJ2fdRSEY_HbtwUV-14" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;rounded=0;fontFamily=Lucida Console;" parent="o41WFJ2fdRSEY_HbtwUV-1" vertex="1">
-          <mxGeometry x="296" y="420.5" width="100" height="55" as="geometry" />
+          <mxGeometry x="300" y="271.25" width="78" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="o41WFJ2fdRSEY_HbtwUV-18" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#001C38;endArrow=block;endFill=0;" parent="o41WFJ2fdRSEY_HbtwUV-1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -4794,6 +4785,18 @@
         </mxCell>
         <mxCell id="eSo5ft27-HY5UrV-ZqGx-0" value="网关服务器" style="fontColor=#001C38;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.proxy_server;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="o41WFJ2fdRSEY_HbtwUV-1">
           <mxGeometry x="964" y="311.5" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="L177x5_o-lvtpJZAouli-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="o41WFJ2fdRSEY_HbtwUV-1">
+          <mxGeometry x="300" y="376" width="78" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="L177x5_o-lvtpJZAouli-3" value="运维人员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="o41WFJ2fdRSEY_HbtwUV-1">
+          <mxGeometry x="217" y="359.25" width="20" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="L177x5_o-lvtpJZAouli-4" value="应用中的SDK" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;rounded=0;fontFamily=Lucida Console;fontSize=14;" vertex="1" parent="o41WFJ2fdRSEY_HbtwUV-1">
+          <mxGeometry x="187" y="458" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="L177x5_o-lvtpJZAouli-6" value="运维人员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="o41WFJ2fdRSEY_HbtwUV-1">
+          <mxGeometry x="217" y="255" width="20" height="63.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
