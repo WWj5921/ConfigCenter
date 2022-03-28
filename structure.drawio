@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:04:41.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="u_tO9838DLRFCniRGDII" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T09:19:35.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="gF9usk7jC6CJ6e6UJtbZ" version="17.1.3" type="github" pages="2">
   <diagram id="nry78JKhDy1Rf3u7HADb" name="system">
     <mxGraphModel dx="3784" dy="7265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N7M3NUsZW4sjrtadnojn" name="mongodb">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="861" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="qth2_XQC43e7gwmiWwEu-0" />
         <mxCell id="qth2_XQC43e7gwmiWwEu-1" parent="qth2_XQC43e7gwmiWwEu-0" />
@@ -879,6 +879,69 @@
         </mxCell>
         <mxCell id="ey2rHgjJfzuWhovgfCoA-48" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="299" y="616" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-54" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1080" y="460" width="250" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-55" value="mongos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1125" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-56" value="meta" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1125" y="590" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-57" value="shard1-主节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1125" y="660" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-58" value="shard2-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1125" y="730" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-59" value="shard3-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1125" y="800" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-60" value="MongoDB A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1150" y="467" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-61" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1400" y="460" width="250" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-62" value="mongos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1445" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-63" value="meta" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1445" y="590" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-64" value="shard2-主节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1445" y="660" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-65" value="shard1-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1445" y="730" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-66" value="shard3-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1445" y="800" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-67" value="MongoDB B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1470" y="467" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-68" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1710" y="460" width="250" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-69" value="mongos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1755" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-70" value="meta" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1755" y="590" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-71" value="shard3-主节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1755" y="660" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-72" value="shard1-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1755" y="730" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-73" value="shard2-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1755" y="800" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-74" value="MongoDB C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1780" y="467" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
