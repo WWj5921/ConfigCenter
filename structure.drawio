@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:19:35.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="gF9usk7jC6CJ6e6UJtbZ" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T09:20:28.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="fIQ4EO6jXFjSR-tqSGnd" version="17.1.3" type="github" pages="2">
   <diagram id="nry78JKhDy1Rf3u7HADb" name="system">
     <mxGraphModel dx="3784" dy="7265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N7M3NUsZW4sjrtadnojn" name="mongodb">
-    <mxGraphModel dx="1261" dy="861" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="qth2_XQC43e7gwmiWwEu-0" />
         <mxCell id="qth2_XQC43e7gwmiWwEu-1" parent="qth2_XQC43e7gwmiWwEu-0" />
@@ -898,8 +898,8 @@
         <mxCell id="ey2rHgjJfzuWhovgfCoA-59" value="shard3-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="1125" y="800" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ey2rHgjJfzuWhovgfCoA-60" value="MongoDB A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
-          <mxGeometry x="1150" y="467" width="110" height="30" as="geometry" />
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-60" value="服务器 A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1165" y="469" width="81" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ey2rHgjJfzuWhovgfCoA-61" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="1400" y="460" width="250" height="400" as="geometry" />
@@ -919,8 +919,8 @@
         <mxCell id="ey2rHgjJfzuWhovgfCoA-66" value="shard3-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="1445" y="800" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ey2rHgjJfzuWhovgfCoA-67" value="MongoDB B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
-          <mxGeometry x="1470" y="467" width="110" height="30" as="geometry" />
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-67" value="服务器 B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1485" y="469" width="81" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ey2rHgjJfzuWhovgfCoA-68" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="1710" y="460" width="250" height="400" as="geometry" />
@@ -940,8 +940,8 @@
         <mxCell id="ey2rHgjJfzuWhovgfCoA-73" value="shard2-从节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
           <mxGeometry x="1755" y="800" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ey2rHgjJfzuWhovgfCoA-74" value="MongoDB C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
-          <mxGeometry x="1780" y="467" width="110" height="30" as="geometry" />
+        <mxCell id="ey2rHgjJfzuWhovgfCoA-74" value="服务器 C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="qth2_XQC43e7gwmiWwEu-1">
+          <mxGeometry x="1794" y="469" width="82" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
