@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T16:14:49.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="9HM371TJ6QWvd1jjCTTV" version="17.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-04-11T16:17:13.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="KLzD8Y_wGjp38Yy0A8iD" version="17.1.3" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1678" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -288,19 +288,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-4" value="配置管理系统&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="345" y="730" width="125" height="50" as="geometry" />
+          <mxGeometry x="337.5" y="730" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-5" value="连&lt;br&gt;接&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="282.5" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="240" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-6" value="配&lt;br&gt;置&lt;br&gt;拉&lt;br&gt;取" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="352.5" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="330" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-7" value="配&lt;br&gt;置&lt;br&gt;监&lt;br&gt;听" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
           <mxGeometry x="422.5" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-8" value="缓&lt;br&gt;存&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="492.5" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="520" y="860" width="40" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
