@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T16:50:47.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Y0cSHHrl5BxwzGcaWrZ7" version="17.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-04-11T16:14:49.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="9HM371TJ6QWvd1jjCTTV" version="17.1.3" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1678" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jSfoPk2qc9v5_1uQAuXB" name="function">
-    <mxGraphModel dx="1240" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="Nnm8WDqMuxHNNKsXmkyH-0" />
         <mxCell id="Nnm8WDqMuxHNNKsXmkyH-1" parent="Nnm8WDqMuxHNNKsXmkyH-0" />
@@ -234,8 +234,8 @@
         <mxCell id="Nnm8WDqMuxHNNKsXmkyH-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=none;endFill=0;fontFamily=华文宋体;" edge="1" parent="Nnm8WDqMuxHNNKsXmkyH-1" source="Nnm8WDqMuxHNNKsXmkyH-47" target="Nnm8WDqMuxHNNKsXmkyH-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nnm8WDqMuxHNNKsXmkyH-47" value="配置管理系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="Nnm8WDqMuxHNNKsXmkyH-1">
-          <mxGeometry x="376" y="480" width="164" height="40" as="geometry" />
+        <mxCell id="Nnm8WDqMuxHNNKsXmkyH-47" value="配置管理系统&lt;br&gt;服务端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="Nnm8WDqMuxHNNKsXmkyH-1">
+          <mxGeometry x="376" y="470" width="164" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Nnm8WDqMuxHNNKsXmkyH-48" value="用&lt;br&gt;户&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="Nnm8WDqMuxHNNKsXmkyH-1">
           <mxGeometry x="120" y="600" width="40" height="130" as="geometry" />
@@ -271,7 +271,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q4SE-ySflgdqu54gy3pr" name="client">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="edouV_f3OtMdX3rmoKNi-0" />
         <mxCell id="edouV_f3OtMdX3rmoKNi-1" parent="edouV_f3OtMdX3rmoKNi-0" />
@@ -287,20 +287,20 @@
         <mxCell id="NwqrG20D2iSckZvJugih-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=none;endFill=0;fontFamily=华文宋体;" edge="1" parent="edouV_f3OtMdX3rmoKNi-1" source="NwqrG20D2iSckZvJugih-4" target="NwqrG20D2iSckZvJugih-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NwqrG20D2iSckZvJugih-4" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="365" y="740" width="100" height="40" as="geometry" />
+        <mxCell id="NwqrG20D2iSckZvJugih-4" value="配置管理系统&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
+          <mxGeometry x="345" y="730" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-5" value="连&lt;br&gt;接&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="290" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="282.5" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-6" value="配&lt;br&gt;置&lt;br&gt;拉&lt;br&gt;取" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="360" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="352.5" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-7" value="配&lt;br&gt;置&lt;br&gt;监&lt;br&gt;听" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="430" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="422.5" y="860" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwqrG20D2iSckZvJugih-8" value="缓&lt;br&gt;存&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;fontFamily=华文宋体;" vertex="1" parent="edouV_f3OtMdX3rmoKNi-1">
-          <mxGeometry x="500" y="860" width="40" height="130" as="geometry" />
+          <mxGeometry x="492.5" y="860" width="40" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -457,7 +457,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YuLgy30twlW7B9YzUSvh" name="新建应用">
-    <mxGraphModel dx="-228" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="-708" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="H7q1KugYFws82dPHmF6r-0" />
         <mxCell id="H7q1KugYFws82dPHmF6r-1" parent="H7q1KugYFws82dPHmF6r-0" />
@@ -646,7 +646,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Dp3c8PxeqEFTSk5RTLB8" name="客户端">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="FCQgqPCb1vrDf4PHocyS-0" />
         <mxCell id="FCQgqPCb1vrDf4PHocyS-1" parent="FCQgqPCb1vrDf4PHocyS-0" />
@@ -1095,7 +1095,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="omZmmLGEFImr-IUDnVAb" name="客户端 用例">
-    <mxGraphModel dx="1426" dy="-1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="-1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="2da6-kw4s6eBrRsZsBLb-0" />
         <mxCell id="2da6-kw4s6eBrRsZsBLb-1" parent="2da6-kw4s6eBrRsZsBLb-0" />
